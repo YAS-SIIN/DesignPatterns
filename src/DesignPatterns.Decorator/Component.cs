@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Decorator
+namespace DesignPatterns.Decorator;
+
+public abstract class Component
 {
-    public class Component
-    {
-    }
+    public abstract void Operation();
 }
