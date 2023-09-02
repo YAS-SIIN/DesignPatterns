@@ -9,7 +9,14 @@ ConcreteComponent concreteComponent = new ConcreteComponent();
 //decorator.Operation();
 
 ConcreteDecorator concreteDecorator = new ConcreteDecorator(concreteComponent);
+
 concreteDecorator.Operation();
+
+SendEmail sendEmail = new SendEmail();
+
+SendEmailDecorator sendEmailDecorator = new SendEmailDecorator(sendEmail);
+sendEmailDecorator.Send();
+sendEmailDecorator.SaveLog();
 
 Console.WriteLine("Hello, World!");
 
