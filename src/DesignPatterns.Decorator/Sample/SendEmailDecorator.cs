@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DesignPatterns.Decorator.Sample;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

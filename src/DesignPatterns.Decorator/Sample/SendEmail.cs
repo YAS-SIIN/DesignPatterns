@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Decorator;
+namespace DesignPatterns.Decorator.Sample;
 
 public class SendEmail
 {
