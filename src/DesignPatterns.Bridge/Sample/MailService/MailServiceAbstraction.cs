@@ -8,14 +8,14 @@ namespace BridgeSample.MailService;
 
 public abstract class MailServiceAbstraction
 {
-    private readonly IMailServiceImplementor implementor;
+    private readonly IMailServiceImplementor _mailServiceImplementor;
     public MailServiceAbstraction()
     {
-        implementor = Implementation.GetImplementor();
+        _mailServiceImplementor = Implementation.GetImplementor();
     }
     public virtual void Send(EmailInformationDto email)
     {
-        implementor.SendEmail(email.Reciver, email.Title, email.Message);
+        _mailServiceImplementor.SendEmail(email.Reciver, email.Title, email.Message);
     }
 }
 

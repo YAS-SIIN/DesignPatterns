@@ -6,14 +6,14 @@ namespace DesignPatterns.Bridge.Abstractions;
 
 public abstract class Abstraction
 {
-    private Implementor implementor;
+    private Implementor _implementor;
     public Abstraction()
     {
-        implementor = new ConcreateImplementor();
+        _implementor = new ConcreateImplementor();
     }
     public virtual void Function()
     {
-        implementor.Implementaion();
+        _implementor.Implementaion();
     }
 }
 
