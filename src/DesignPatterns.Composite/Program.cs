@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DesignPatterns.Composite;
 using DesignPatterns.Composite.Sample;
+using DesignPatterns.Composite.SampleWithEntity;
 
 Console.WriteLine("Hello, World!");
 
@@ -26,7 +27,7 @@ Component component = new Composite
 component.Display(1);
 
 
-//Sample
+//Sample 1
 
 IComponent hardDisk = new Part("Hard Disk", 100000);
 IComponent ram = new Part("RAM", 100000);
@@ -54,6 +55,14 @@ computer.Add(peripherals);
 computer.Add(Monitor);
 
 computer.DisplayPrice();
-Console.Read();
 
+
+//Sample With Entity
+
+SampleService sampleService = new SampleService();
+sampleService.InitializeData();
+sampleService.GetResult();
+
+Console.Read();
 Console.ReadLine();
+
