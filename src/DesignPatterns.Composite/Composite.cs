@@ -22,7 +22,7 @@ public class Composite : Component
             Add(item);
         }
     }
-
+     
     public override void Add(Component component)
     {
         _components.Add(component);
