@@ -1,8 +1,11 @@
-# DesignPatterns
-Decorator
-Facade
-Bridge
-Adapter
-Decorator
-Composite
-Proxy
+# Design Patterns 
+
+
+- Decorator
+- Facade
+- Bridge
+- Adapter
+- Composite
+- Proxy
+
+This project is completing ..
