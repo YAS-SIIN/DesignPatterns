@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Singletone;
 
-public class Singelton
+public sealed class Singelton
 {
     public static Singelton uniqeSingelton;
     private Singelton() {
