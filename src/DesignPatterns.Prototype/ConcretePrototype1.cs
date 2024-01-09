@@ -17,8 +17,8 @@ public class ConcretePrototype1 : IPrototype
     public int value { get; set; }
     public string valueName { get; set; }
 
-    public IPrototype Clone()
+    public ConcretePrototype1 Clone()
     {
-       return (IPrototype)this.MemberwiseClone();
+       return (ConcretePrototype1)this.MemberwiseClone();
     }
 }
