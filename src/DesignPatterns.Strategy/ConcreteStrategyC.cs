@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Strategy;
 
-public class ConcreteStrategyC
+public class ConcreteStrategyC : Strategy
 {
+    public override void AlgoritmInterface()
+    {
+        Console.WriteLine("ConcereteStrategyC.AlgoritmInterface()");
+    }
 }
