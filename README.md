@@ -9,4 +9,5 @@
 - Proxy
 - Adapter
 - FactoryMethod
+- Prototype
 This project is completing ..
