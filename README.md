@@ -7,5 +7,6 @@
 - Adapter
 - Composite
 - Proxy
-
+- Adapter
+- 
 This project is completing ..
