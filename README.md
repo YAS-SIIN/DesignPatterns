@@ -8,5 +8,5 @@
 - Composite
 - Proxy
 - Adapter
-- 
+- FactoryMethod
 This project is completing ..
