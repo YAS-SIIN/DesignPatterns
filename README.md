@@ -11,4 +11,5 @@
 - FactoryMethod
 - Prototype
 - Singletone
+- Strategy
 This project is completing ..
