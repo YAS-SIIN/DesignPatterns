@@ -10,4 +10,5 @@
 - Adapter
 - FactoryMethod
 - Prototype
+- Singletone
 This project is completing ..
