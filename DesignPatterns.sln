@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.TemplateMeth
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ChainOfResponsibility", "src\DesignPatterns.ChainOfResponsibility\DesignPatterns.ChainOfResponsibility.csproj", "{CA664658-91BA-428D-BF7A-7293A620C30A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Command", "src\DesignPatterns.Command\DesignPatterns.Command.csproj", "{C73B06A7-31B8-45A5-A6C4-A23E0C85C7FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Command", "src\DesignPatterns.Command\DesignPatterns.Command.csproj", "{C73B06A7-31B8-45A5-A6C4-A23E0C85C7FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Memento", "src\DesignPatterns.Memento\DesignPatterns.Memento.csproj", "{9FA3D118-4B8C-4778-951D-04887F657A77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{C73B06A7-31B8-45A5-A6C4-A23E0C85C7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C73B06A7-31B8-45A5-A6C4-A23E0C85C7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C73B06A7-31B8-45A5-A6C4-A23E0C85C7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA3D118-4B8C-4778-951D-04887F657A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA3D118-4B8C-4778-951D-04887F657A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA3D118-4B8C-4778-951D-04887F657A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA3D118-4B8C-4778-951D-04887F657A77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
